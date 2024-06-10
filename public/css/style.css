@@ -3,14 +3,36 @@ body{
     color: #fff;
 }
 
-.link-menu:link, .link-menu:visited, .link-menu:hover, .link-menu:active {
+footer{
+    background-color: #a18262;
+}
+
+footer section{
+    width: 100%;
+    font-size: 0.6em;
+}
+
+footer img{
+    width: 15vw;
+}
+
+.explorar{
+    background-color: #a18262;
+    width: 50%;
+}
+
+.rede-footer{
+    font-size: 1.3em;
+}
+.slogan{
+    font-size: 0.6em;
+}
+
+a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color: #fff;
 }
-.link-menu:hover, .link-menu:active{
-    font-size: 1.1em;
-    text-decoration: underline;
-}
+
 
 .pesquisa-menu{
     border-bottom: #fff solid 1px;
@@ -21,3 +43,11 @@ body{
 .parte-nav{
     width: 33%;
 }
+
+.search-menu{
+    background-color: #111;
+    color: #fff;
+    border: 0px;
+    width: 90%;
+}
+

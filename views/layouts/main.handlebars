@@ -11,6 +11,7 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body id="principal">
     <div class="main-content">
@@ -21,16 +22,50 @@
             </div>
             <div class="parte-nav"><img src="img/logo.png"/></div>
             <div class="parte-nav pt-2">
-                <div class="pesquisa-menu">
-                    teste
+                                
+                
+                <div class="pesquisa-menu input-group">
+                    <input type="search" class="search-menu" placeholder="Pesquise aqui" aria-label="Search" aria-describedby="search-addon" />
+                    <i class="fa fa-search"></i>
+                    
                 </div>
                 <a class="link-menu px-3" href="">Login</a>
             </div>
         </nav>
-    {{{body}}}
+        <main class="principal main-content">
+            {{{body}}}
+        </main>
+        
+        <footer class="navbar  text-center">
+            <div class="container">
+                <section>
+                    <img src="img/logo.png"/>
+                </section>
+                <section class="mb-1">
+                    <a href="#" class="px-5">contato@blackcoffe.com.br</a>
+                </section>
+                <section classe="d-flex justify-content-between">
+                    <a href="#" class="px-5">Termos de Privacidade</a>
+                    <a href="#" class="px-5">Politicas de Cookies</a>
+                    <a href="#" class="px-5">FAQ'S</a>
+                    <a href="#" class="px-5">Trabalhe Conosco</a>
+                </section>
+                <section>
+                    <!-- Facebook -->
+                    <a href="#" class="rede-footer btn btn-link btn-floating btn-lg text-body"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#" class="rede-footer btn btn-link btn-floating btn-lg text-body"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="rede-footer btn btn-link btn-floating btn-lg text-body"><i class="fa fa-google"></i></a>
+                    <a href="#" class="rede-footer btn btn-link btn-floating btn-lg text-body"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="rede-footer btn btn-link btn-floating btn-lg text-body"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" class="rede-footer btn btn-link btn-floating btn-lg text-body"><i class="fa fa-github"></i></a>
+                </section>
+            </div>
+            
+        </footer>
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
         crossorigin="anonymous"></script>
+
 </html>
