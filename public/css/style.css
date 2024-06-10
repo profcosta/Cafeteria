@@ -1,0 +1,23 @@
+body{
+    background-color: #111;
+    color: #fff;
+}
+
+.link-menu:link, .link-menu:visited, .link-menu:hover, .link-menu:active {
+    text-decoration: none;
+    color: #fff;
+}
+.link-menu:hover, .link-menu:active{
+    font-size: 1.1em;
+    text-decoration: underline;
+}
+
+.pesquisa-menu{
+    border-bottom: #fff solid 1px;
+    width: 70%;
+    float:left;
+}
+
+.parte-nav{
+    width: 33%;
+}
