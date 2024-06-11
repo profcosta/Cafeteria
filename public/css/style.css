@@ -72,14 +72,81 @@ a:link, a:visited, a:hover, a:active {
     font-size: 0.5em;
     text-align: justify;
     padding: 0 10px;
-    
 }
 
 .novidade{
-    padding: 30px;
+    padding: 20px;   
 }
 .item-novidade{
     background-color: #a18262;
     padding: 10px;
+    padding-bottom: 0px;
+}
 
+.titulo-novidade{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+.card-novidade{
+    margin: 5px 0px;
+}
+
+.titulo-card-novidade{
+    font-size: 0.9em;
+    text-decoration: underline;
+    margin: 0px;
+    padding: 0px;
+}
+
+.texto-novidade{
+    font-size: 0.5em;
+    margin: 0px;
+}
+
+.cardapio{
+    padding: 5px; 
+}
+.titulo-cardapio{
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.img-cardapio{
+    width: 40px;
+    margin-top: -5px;
+}
+
+
+.item-cardapio{
+    background-color: #a18262;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+.espaco{
+    height: 20px;
+}
+
+.filtro{
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+
+.filtro button{
+    background-color: #fff;
+    color: #000;
+    font-size: 0.6em;
+}
+
+.filtro button img{
+    width: 20px;
+    margin-top: -5px;
+}
+
+.filtro ul li a{
+    color: #000;
+    font-size: 0.5em;
 }
