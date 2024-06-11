@@ -51,3 +51,35 @@ a:link, a:visited, a:hover, a:active {
     width: 90%;
 }
 
+.historia{
+    background-color: #ed9121; /* #cd853f;  */
+    width: 100%;
+}
+.titulo-historia{
+    padding: 0 30px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.texto-historia{
+    -webkit-column-count:2; /* Chrome, Safari, Opera */
+    -moz-column-count:2;    /* Firefox */
+    column-count:2;         /* padrão */
+    padding: 0 30px;
+    padding-bottom: 40px;
+}
+.texto-historia p{
+    font-size: 0.5em;
+    text-align: justify;
+    padding: 0 10px;
+    
+}
+
+.novidade{
+    padding: 30px;
+}
+.item-novidade{
+    background-color: #a18262;
+    padding: 10px;
+
+}
