@@ -163,12 +163,15 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .form-login{
-    font-size: 0.8em;
+    font-size: 8px;
     color:black;
 }
 
-
-
 .form-login input{
-    font-size: 1.2em;
+    font-size: 8px;
+    color:black;
+    height: 10px;
 }
+
+
+
