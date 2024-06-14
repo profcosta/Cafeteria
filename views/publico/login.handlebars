@@ -2,13 +2,20 @@
     <div class="container">
         <h5 class="titulo-historia"><strong>Login</strong></h5>
         <form class="form-login">
-            <div data-mdb-input-init class="form-outline">
-    <input type="tel" id="typePhone" class="form-control" />
-    <label class="form-label" for="typePhone">Phone number input</label>
-</div>
+            <div class="campo-login mb-3">
+                <label for="usuario">Usuário:</label><br>
+                <input type="text" class="text-login" name="usuario" id="usuario"/>
+            </div>
+
+            <div class="campo-login mb-3">
+                <label for="senha">Senha:</label><br>
+                <input type="password" class="text-login" name="senha" id="senha"/>
+            </div>
+            <input type="submit" class="btn btn-success btn-login" value="Entrar"/>
         </form>
-        <div class="info-login">
-            informações
+        <div class="info-login p-3">
+            <p class="baixa-login">Esqueceu sua senha?</p>
+            <p class="alta-login">Não possui uma conta? Cadastre-se</p>
         </div>
     </div>
   
